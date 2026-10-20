@@ -53,7 +53,7 @@ module.exports = {
       // ❤️ Check heart keywords first
       if (heartKeywords.some(keyword => text.includes(keyword))) {
         api.setMessageReaction(
-          "❤️",
+          "🤍",
           messageID,
           () => {},
           true
@@ -64,7 +64,7 @@ module.exports = {
       // 😆 Check laugh keywords
       if (laughKeywords.some(keyword => text.includes(keyword))) {
         api.setMessageReaction(
-          "😆",
+          "😅",
           messageID,
           () => {},
           true
